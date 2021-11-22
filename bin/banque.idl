@@ -1,0 +1,7 @@
+	module Banque{
+		interface Banque{
+			float lire_compte();
+			void debiter(in float solde);
+			void crediter(in float solde);
+		};
+	};
